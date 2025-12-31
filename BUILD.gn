@@ -32,4 +32,7 @@ ohos_cargo_crate("lib") {
         "alloc",
         "std",
     ]
+    module_output_extension = ".rlib"
+    part_name = "rust_nom"
+    subsystem_name = "thirdparty"
 }
